@@ -7,6 +7,6 @@
 
 myList = [{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Mi Max', 'model': '2', 'color': 'Gold'}, {'make': 'Samsung', 'model': 7, 'color': 'Blue'}]
 
-newList = sorted(myList, key=lambda d: d['make'], reverse = True)
+newList = sorted(myList, key=lambda d: d['color'])
 
 print(newList)
